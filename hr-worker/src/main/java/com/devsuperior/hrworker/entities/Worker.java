@@ -1,4 +1,4 @@
-package com.example.demo.entities;
+package com.devsuperior.hrworker.entities;
 
 import java.io.Serializable;
 import java.util.Objects;

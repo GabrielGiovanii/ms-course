@@ -1,4 +1,4 @@
-package com.example.demo.resources;
+package com.devsuperior.hrpayroll.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entities.Payment;
-import com.example.demo.services.PaymentService;
+import com.devsuperior.hrpayroll.entities.Payment;
+import com.devsuperior.hrpayroll.services.PaymentService;
 
 @RestController
 @RequestMapping(value = "/payments")

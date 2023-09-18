@@ -1,8 +1,8 @@
-package com.example.demo.services;
+package com.devsuperior.hrpayroll.services;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.entities.Payment;
+import com.devsuperior.hrpayroll.entities.Payment;
 
 @Service
 public class PaymentService {

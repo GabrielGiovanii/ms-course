@@ -1,4 +1,4 @@
-package com.example.demo.resources;
+package com.devsuperior.hrworker.resources;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entities.Worker;
-import com.example.demo.repositories.WorkerRepository;
+import com.devsuperior.hrworker.entities.Worker;
+import com.devsuperior.hrworker.repositories.WorkerRepository;
 
 @RestController
 @RequestMapping(value = "/workers")
