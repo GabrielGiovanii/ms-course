@@ -26,6 +26,22 @@ public class Role implements Serializable {
 		this.id = id;
 		this.roleName = roleName;
 	}
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getRoleName() {
+		return roleName;
+	}
+
+	public void setRoleName(String roleName) {
+		this.roleName = roleName;
+	}
 
 	@Override
 	public int hashCode() {
@@ -42,5 +58,10 @@ public class Role implements Serializable {
 			return false;
 		Role other = (Role) obj;
 		return Objects.equals(roleName, other.roleName);
+	}
+
+	@Override
+	public String toString() {
+		return "Role [id=" + id + ", roleName=" + roleName + "]";
 	}
 }

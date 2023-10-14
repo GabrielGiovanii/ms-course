@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 public class HrUserApplication implements CommandLineRunner {
 
 	@Autowired
-	private BCryptPasswordEncoder bcryptEncoder;
+	private BCryptPasswordEncoder passwordEncoder;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(HrUserApplication.class, args);
